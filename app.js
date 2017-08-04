@@ -16,6 +16,11 @@ $(document).ready(function () {
 		
 			.fail(function(err) {
 				console.log(err);
+
+				$("#zero-results").show();
+
+
+
 			})
 
 	}
@@ -37,9 +42,13 @@ $(document).ready(function () {
 	}
 
 	//search term
-	$("#search-form").submit(function (event) {
+	$(".search-form").submit(function (event) {
 		event.preventDefault();
-		getResults($("#search-term").val());
-		console.log("This worked");
+		$("#search-results").html("");
+		$("#zero-results").hide();
+		$("#no-search").hide();
+		getResults($(".search-term", $(event.currentTarget)).val());
+		
+		
 	});
 });

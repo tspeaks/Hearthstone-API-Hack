@@ -21,25 +21,44 @@
 
 <body>
 		<div class="app">
-			<div class="header">
-
-				<h1>Hearthstone API Hack</h1>
-				<h2>search for cards by keywords</h2>
-
-				
-
-			</div>
-
-			<div class="row">
-				<div class="col-lg-10 col-md-12">
-					<div id="search-results" class="row">
-						<div id="no-results" class="col-xs-12">Enter a keyword to display results</div>
+			<div class="row" id="header">
+				<div class="hidden-lg">
+					<div id="small-header">
+						<h1>Hearthstone API Hack</h1>
+						<h2>search for cards by keywords</h2>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-0">
-				<form id="search-form">
-					<input id="search-term" type="text" name="text-field" placeholder="card text">
-					<input type="submit" id="search-button">
+
+				<div class="visible-lg-block">
+					<div id="large-header">
+						<h1>Hearthstone API Hack</h1>
+						<h2>search for cards by keywords</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="row hidden-lg">
+				<div class="col-md-12">
+				<form class="search-form" id="small-form">
+					<input class="search-term" type="text" name="text-field" placeholder="card text, eg knight">
+					<input type="submit" class="search-button">
+				</form>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-lg-10 col-md-12">
+					<div id="search-results" class="row">
+					</div>
+					<div class="row">
+						<div id="no-search" class="col-xs-12">Enter a keyword to display results</div>
+						<div id="zero-results" class="col-xs-12" style="display: none">No results were found</div>
+					</div>
+				</div>
+				<div class="col-lg-2 visible-lg-block">
+				<form class="search-form" id="big-form">
+					<input class="search-term" type="text" name="text-field" placeholder="card text, eg knight">
+					<input type="submit" class="search-button">
 				</form>
 				</div>
 			</div>
