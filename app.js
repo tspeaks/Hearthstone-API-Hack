@@ -47,6 +47,7 @@ $(document).ready(function () {
 		$("#search-results").html("");
 		$("#zero-results").hide();
 		$("#no-search").hide();
+		$(".view").css("background", "none");
 		getResults($(".search-term", $(event.currentTarget)).val());
 		
 		

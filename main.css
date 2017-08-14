@@ -52,7 +52,7 @@ body {
 }
 
 #no-search {
-	color: rgb(84, 74, 67);
+	color: rgb(226, 226, 199);
 	font-size: 3rem;
 	letter-spacing: 0.2rem;
 	padding-top: 100px;
@@ -66,7 +66,7 @@ body {
 }
 
 .search-form, .search-term, .search-button {
-	background-color: rgb(243, 237, 221);
+	background-color: rgb(226, 226, 199);
 	float: left;
 		
   	
@@ -96,4 +96,17 @@ body {
 	
 }
 
-	
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("https://t13.deviantart.net/pv7dmKKxp5g0KUSJgb2Zihgfeck=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre10/b331/th/pre/i/2015/065/2/3/blackrock_mountain_by_mr__jack-d8kmouq.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
