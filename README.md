@@ -2,7 +2,7 @@
 See a live version of this App at:
 https://tspeaks.github.io/Hearthstone-API-Hack/
 
-![Screenshot](hsapihack.png)
+![Screenshot](HearthSearch.png)
 
 A database utility for players of the popular online card game.
 
