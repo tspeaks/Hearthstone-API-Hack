@@ -1,4 +1,4 @@
-# Hearthstone-API-Hack
+# HearthSearch
 See a live version of this App at:
 https://tspeaks.github.io/Hearthstone-API-Hack/
 
